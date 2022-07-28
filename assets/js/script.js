@@ -13,7 +13,6 @@ var createTask = function(taskText, taskDate, taskList) {
   // append span and p element to parent li
   taskLi.append(taskSpan, taskP);
 
-
   // append to ul list on the page
   $("#list-" + taskList).append(taskLi);
 };
